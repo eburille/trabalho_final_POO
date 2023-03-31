@@ -11,4 +11,14 @@ public class casa
         comodos.add(novoVomodo);
     }
 
+    public ArrayList<Comodo> getComodos(){
+        return comodos;
+    }
+
+    public ArrayList<DispositivoInteligente> getDispositivos(){
+        //Fazer iterração entre todos os dispositivos de todos os comodos
+        
+        return ArrayList<DispositivoInteligente>;
+    }
+
 }

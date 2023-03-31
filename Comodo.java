@@ -22,4 +22,9 @@ public class Comodo{
     public String getNomeComodo() {
         return this.nomeComodo;
     }
+
+    public ArrayList<DispositivoInteligente> getDispositivos(){
+
+        return Dispositivos;
+    }
 }
