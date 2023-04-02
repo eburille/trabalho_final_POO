@@ -11,7 +11,6 @@ public class Comodo{
 
     public void adicionarDispositivo(DispositivoInteligente novoDispositivo){
         this.Dispositivos.add(novoDispositivo);
-        
         return;
     }
 
