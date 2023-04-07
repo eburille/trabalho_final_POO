@@ -5,16 +5,14 @@ public class Principal
 {
     public static void main(String[] args) {
         File file = new File("estado_Arquivos.txt");
-        Comodo comodo = new Comodo();
+        casa casa = new casa();
             try{
                 FileReader fr = new FileReader(file);
                 BufferedReader br = new BufferedReader(fr); 
     
                 while (br.ready()){
                     String linha = br.readLine();
-                    comodo.add(new Comodo(linha.split(";")[0], Double.parseDouble(linha.split(";")[1])
-                    )
-                    );
+                    casa.registrarComodo(new Comodo(linha.split(";")[0]));
                 }
     
                 br.close();
