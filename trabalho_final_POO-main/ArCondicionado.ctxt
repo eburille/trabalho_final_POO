@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ArCondicionado
+comment1.params=dispositivo
+comment1.target=ArCondicionado(java.lang.String)
+comment2.params=
+comment2.target=int\ getTemperatura()
+comment3.params=temperatura
+comment3.target=void\ setTemperatura(int)
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Comodo
+comment1.params=nome
+comment1.target=Comodo(java.lang.String)
+comment2.params=novoDispositivo
+comment2.target=void\ adicionarDispositivo(DispositivoInteligente)
+comment3.params=
+comment3.target=java.util.ArrayList\ getListaDispositivos()
+comment4.params=
+comment4.target=java.lang.String\ getNomeComodo()
+comment5.params=
+comment5.target=java.util.ArrayList\ getDispositivos()
+numComments=6
