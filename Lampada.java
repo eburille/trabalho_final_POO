@@ -1,7 +1,8 @@
 public class Lampada extends DispositivoInteligente {
+    int intensidade;
     public Lampada(String dispositivo) {
         super(dispositivo);
-        intensidade = 50;
+        this.intensidade = 50;
     }
     
     public void ligar() {
@@ -16,7 +17,7 @@ public class Lampada extends DispositivoInteligente {
     
     public void setIntensidade(int novaIntensidade) {
         if (novaIntensidade >= 0 && novaIntensidade <= 100) {
-            intensidade = novaIntensidade;
+            this.intensidade = novaIntensidade;
             System.out.println(getDispositivo() + " intensidade ajustada para " + intensidade + ".");
         } else {
             System.out.println("Intensidade inválida. Use um valor entre 0 e 100.");
@@ -24,7 +25,7 @@ public class Lampada extends DispositivoInteligente {
     }
 
     public int getIntensidade() {
-        return intensidade;
+        return this.intensidade;
     }
 
 }
